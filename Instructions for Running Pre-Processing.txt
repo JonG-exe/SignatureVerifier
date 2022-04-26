@@ -1,0 +1,9 @@
+Instructions for running "Preprocessing - Augmentation.ipynb"
+
+- "Preprocessing - Augmentation.ipynb" should be ran before "Signature_Verifier.ipynb" in the event that the images
+to be used require augmentation such as grayscaling and rotation.
+
+	- In cell (2) add the path for your dataset containing genuine/real signatures.
+	- Do the same for cell (3) forg_folder_dir, but in the case, you're providing it the path to forged/faked 	
+		signatures.
+
